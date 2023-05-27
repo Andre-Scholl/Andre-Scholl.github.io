@@ -1,3 +1,6 @@
+
+<! -- Jinja not usable in a browser but only with Python -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -73,27 +76,11 @@
 		  <li><a href="https://www.researchgate.net/profile/Andre-Scholl-2 target="_blank"><i class="researchgate-icon fab fa-researchgate"></i> ResearchGate </a></li> 
         </ul>
       </div>
+	
+	{% block body %}{% endblock %}
 
-      <!-- Main Content -->
-      <div class="col-md-9">
-        <section id="welcome">
-          <h2>Welcome to My Website!</h2>
-		  <br>
-          <p>I am a PhD Candidate and Research Assistant at the University of Bern. </p>
-		  <p>My research focuses on Open Data (OD), specifically, Open Government Data (OGD) published by the public sector. I am investigating the technological impact of Linked Data (LD) as a particular data format and advancement in web technologies. OGD can play a significant role in modern E-Government development as a global framework.</p>
-		  <p>
-		  The objective of my research is to achieve a state-of-the-art understanding of OGD publication and usage. I am identifying the key factors that facilitate or hinder its adoption, exploring the interactions among various stakeholders, analyzing different types of data and their usage domains, and investigating the most important applications of OGD. 
-		  In the second phase, I am describing and explaining the essential benefits, disadvantages, and risks associated with OGD. I am also examining the data life cycle and the mechanisms through which OGD creates economic, social, and political value. 
-		  Additionally, I am investigating the overall impact of OGD, considering the perspectives of individual experts and practitioners, as well as analyzing relevant scientific literature using scientometric techniques. Finally, I am interested in evaluating the economic benefits at the level of individual companies.
-		  </p>
-		  <p>
-			To comprehensively study these research domains, I am systematically analyzing the literature and both qualitative and quantitative primary and secondary research data. This involves examining relevant scientific literature as well as collecting and analyzing data from practical sources.
-		</p>
-        </section>
-
-      </div>
-    </div>
-  </div>
+	</div>
+	</div>
 
 </body>
 
